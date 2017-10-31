@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\WinboxHelper]
+@="URL:winboxhelper Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\WinboxHelper\Shell]
+
+[HKEY_CLASSES_ROOT\WinboxHelper\Shell\Open]
+
+[HKEY_CLASSES_ROOT\WinboxHelper\Shell\Open\Command]
+@="\"C:\\WinboxHelper\\WinboxHelper.exe\" \"%1\""

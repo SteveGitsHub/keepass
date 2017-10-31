@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>InterMapper RemoteAccess Helper Apps configuration</comment>
+<entry key="traceroute.CMD">${LAUNCHER} "${PATH} ${ARGS} ${ADDRESS} &amp; pause"</entry>
+<entry key="remotedesktop.TITLE">MS Remote Desktop</entry>
+<entry key="calc.TITLE">Winbox</entry>
+<entry key="http.PATH">http://${ADDRESS}</entry>
+<entry key="http.ARGS">${URL_LAUNCHER}</entry>
+<entry key="calc.multiple_selection">false</entry>
+<entry key="traceroute.TITLE">Traceroute</entry>
+<entry key="https_8080.multiple_selection">false</entry>
+<entry key="port_forwarded_http_launch.STDIN"/>
+<entry key="ping.TITLE">Ping</entry>
+<entry key="http.STDIN"/>
+<entry key="http.multiple_selection">false</entry>
+<entry key="ping.multiple_selection">false</entry>
+<entry key="https_8080.CMD">${URL_LAUNCHER}</entry>
+<entry key="https_8080.TITLE">https_8080</entry>
+<entry key="traceroute.multiple_selection">false</entry>
+<entry key="port_forwarded_http_launch.multiple_selection">false</entry>
+<entry key="telnet.CMD">${LAUNCHER} "${PATH} ${ARGS} ${ADDRESS} &amp; pause"</entry>
+<entry key="remotedesktop.CMD">${LAUNCHER} "${PATH} ${ADDRESS}"</entry>
+<entry key="remotedesktop.multiple_selection">false</entry>
+<entry key="telnet.TITLE">Telnet</entry>
+<entry key="calc.STDIN"/>
+<entry key="traceroute.ARGS"/>
+<entry key="traceroute.PATH">tracert</entry>
+<entry key="calc.ARGS"/>
+<entry key="calc.PATH">C:\\winboxhelper\\winboxhelper.exe</entry>
+<entry key="helpers">ping traceroute telnet http remotedesktop port_forwarded_http_launch https_8080 calc - $customize</entry>
+<entry key="telnet.multiple_selection">false</entry>
+<entry key="remotedesktop.PATH">mstsc.exe /v</entry>
+<entry key="remotedesktop.ARGS"/>
+<entry key="port_forwarded_http_launch.ARGS">${URL_LAUNCHER}</entry>
+<entry key="port_forwarded_http_launch.TITLE">port_forwarded_http_launch</entry>
+<entry key="port_forwarded_http_launch.PATH">http://${ADDRESS}:${PORT}</entry>
+<entry key="http.TITLE">HTTP</entry>
+<entry key="port_forwarded_http_launch.CMD">${URL_LAUNCHER}</entry>
+<entry key="ping.CMD">${LAUNCHER} "${PATH} ${ARGS} ${ADDRESS} &amp; pause"</entry>
+<entry key="https_8080.PATH">https://${ADDRESS}</entry>
+<entry key="https_8080.ARGS">${URL_LAUNCHER}</entry>
+<entry key="calc.CMD">${LAUNCHER} "${PATH} ${ADDRESS}"</entry>
+<entry key="ping.ARGS"/>
+<entry key="http.CMD">${URL_LAUNCHER}</entry>
+<entry key="ping.PATH">ping</entry>
+<entry key="telnet.PATH">telnet</entry>
+<entry key="telnet.ARGS"/>
+<entry key="https_8080.STDIN"/>
+</properties>

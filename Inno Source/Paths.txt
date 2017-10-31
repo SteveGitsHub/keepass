@@ -1,0 +1,1 @@
+Winbox Install Location,C:\Program Files (x86)\Winbox\Winbox.exe,KeePass DB Location,C:\My Box Files\KeePass\zmc-pass.kdbx
